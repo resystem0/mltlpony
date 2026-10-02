@@ -1,0 +1,8 @@
+{
+  "name": "mltlpony",
+  "version": "0.1.0",
+  "description": "Measure your Claude Code harness: a local, redacted session event log, a silent-failure doctor for hooks, and a cross-repo ponytail: debt ledger.",
+  "author": { "name": "resystem0", "url": "https://github.com/resystem0" },
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

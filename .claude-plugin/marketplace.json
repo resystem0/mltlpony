@@ -1,16 +1,22 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "ponytail",
-  "description": "Lazy senior dev mode for AI agents. The best code is the code you never wrote.",
+  "name": "mltlpony",
+  "description": "Upstream ponytail plus mltlpony, which measures your Claude Code harness.",
   "owner": {
-    "name": "Dietrich Gebert",
-    "url": "https://github.com/DietrichGebert"
+    "name": "resystem0",
+    "url": "https://github.com/resystem0"
   },
   "plugins": [
     {
       "name": "ponytail",
       "description": "Forces the laziest solution that works. YAGNI, stdlib first, one line over fifty.",
       "source": "./",
+      "category": "productivity"
+    },
+    {
+      "name": "mltlpony",
+      "description": "Local redacted session log, hook silent-failure doctor, and cross-repo ponytail: debt ledger.",
+      "source": "./plugins/mltlpony",
       "category": "productivity"
     }
   ]
